@@ -51,7 +51,7 @@ p {
     color: #0f0f0f;
     margin-bottom: 6px;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -111,7 +111,7 @@ p {
     color: #0f0f0f;
     margin-bottom: 6px;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -170,7 +170,7 @@ p {
     color: #0f0f0f;
     margin-bottom: 6px;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -371,7 +371,7 @@ body {
     margin-bottom: 6px;
     /* Limit title to 2 lines with ellipsis */
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
