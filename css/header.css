@@ -143,6 +143,25 @@
     width: 24px;
     cursor: pointer;
 }
+.notification-icon-section{
+    position: relative;
+    padding-top: 6px;
+}
+
+.notification-number{
+    position: absolute;
+    background-color: rgb(199, 9, 9); 
+    top: 3px;
+    right: -5px;
+    font-size: 11px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    color: white;
+
+}
 
 .profile-picture {
     width: 30px;
