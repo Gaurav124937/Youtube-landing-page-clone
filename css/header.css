@@ -9,11 +9,12 @@
     left: 0;
     right: 0;
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.288);
     background-color: white;
-    z-index: 100;
+    z-index: 200;
     margin-bottom: 0px;
+    overflow: visible;
 
 }
 
@@ -82,7 +83,7 @@
 }
 
 .search-logo {
-    width: 20px;
+    width: 25px;
     border: none;
     display: inline-block;
 
@@ -102,6 +103,18 @@
     box-shadow: inset 0px 1px 2px rgb(238, 238, 238);
 }
 
+.search-button,
+.voice-button,
+.upload-icon-box,
+.you-app-icon-box,
+.notification-icon-box,
+.profile-picture-box,
+.hamburger-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
 .search-bar:focus {
     border: 1px solid rgb(14, 109, 234);
     outline: none;
@@ -112,6 +125,42 @@
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
+
+.search-button:hover {
+    background-color: rgba(211, 211, 211, 0.337);
+}
+
+.tooltip {
+    position: absolute;
+    bottom: -50px;
+    background-color: rgba(0, 0, 0, 0.749);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 7px;
+    padding-left: 7px;
+    font-size: 13px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+    white-space: nowrap;
+}
+
+.search-button:hover .tooltip,
+.voice-button:hover .tooltip,
+.upload-icon-box:hover .tooltip,
+.you-app-icon-box:hover .tooltip,
+.notification-icon-box:hover .tooltip,
+.profile-picture-box:hover .tooltip,
+.hamburger-button:hover .tooltip {
+    opacity: 1;
+
+}
+
+
 
 .voice-button {
     width: 40px;
@@ -143,14 +192,15 @@
     width: 24px;
     cursor: pointer;
 }
-.notification-icon-section{
+
+.notification-icon-box {
     position: relative;
     padding-top: 6px;
 }
 
-.notification-number{
+.notification-number {
     position: absolute;
-    background-color: rgb(199, 9, 9); 
+    background-color: rgb(199, 9, 9);
     top: 3px;
     right: -5px;
     font-size: 11px;

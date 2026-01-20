@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/sidebar.css">
+    <link rel="stylesheet" href="../css/general.css">
 </head>
 
 <body>
@@ -85,13 +86,14 @@
     </nav>
 
 
-
+g
 
     <!--/* header of page-->
     <div class="header">
         <div class="left-part">
             <button class="hamburger-button">
                 <img src="../icons/hamburger-menu.svg" class="hamburger-icon">
+                <div class="tooltip">Menu</div>
             </button>
             <img src="../icons/youtube-logo.svg" class="youtube-logo">
         </div>
@@ -99,19 +101,31 @@
             <input class="search-bar" type="text" placeholder="Search">
             <button class="search-button">
                 <img src="../icons/search.svg" class="search-logo">
+                <div class="tooltip">Search</div>
             </button>
             <button class="voice-button">
                 <img src="../icons/voice-search-icon.svg" class="voice-icon">
+                <div class="tooltip">Serach with your voice</div>
             </button>
         </div>
         <div class="right-part">
-            <img src="../icons/upload.svg" class="upload-icon">
-            <img src="../icons/youtube-apps.svg" class="you-app-icon">
-            <div class="notification-icon-section">
+            <div class="upload-icon-box">
+                <img src="../icons/upload.svg" class="upload-icon">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="you-app-icon-box">
+                <img src="../icons/youtube-apps.svg" class="you-app-icon">
+                <div class="tooltip">youtube apps</div>
+            </div>
+            <div class="notification-icon-box">
                 <img src="../icons/notifications.svg" class="notification-icon">
                 <div class="notification-number">3</div>
+                <div class="tooltip">Notifications</div>
             </div>
-            <img src="../icons/channels4_profile.jpg" class="profile-picture">
+            <div class="profile-picture-box">
+                <img src="../icons/channels4_profile.jpg" class="profile-picture">
+                <div class="tooltip">Acoount</div>
+            </div>
         </div>
     </div>
 
@@ -120,8 +134,8 @@
 
 
 
-    <!-- first two grids-->
-    <div class="grid">
+    <!-- video grids-->
+    <div class="video-grid">
         <div class="self">
             <div class="thumbnail-block">
                 <img class="self-image" src="../media/self.png">
@@ -257,12 +271,6 @@
             </div>
         </div>
 
-    </div>
-
-
-    <!--last two grids*-->
-    <div class="video-grid">
-
         <div class="video-card">
             <div class="thumbnail-block">
                 <img src="https://picsum.photos/seed/csdojo/400/225" alt="Thumbnail" class="thumbnail">
@@ -389,8 +397,8 @@
                 </div>
             </div>
         </div>
-
     </div>
+
 
 </body>
 

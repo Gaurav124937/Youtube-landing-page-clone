@@ -2,7 +2,7 @@
 
     left: 0;
     bottom: 0;
-    top: 54px;
+    top: 50px;
     width: 70px;
     background-color: white;
     padding-top: 2px;
@@ -33,6 +33,14 @@
     border: none;
     background-color: white;
     cursor: pointer;
+}
+
+.sidebar-content:hover {
+    background-color: rgba(211, 211, 211, 0.325);
+}
+
+.sidebar-content:hover .sidebar-button {
+    background-color: rgba(211, 211, 211, 0.325);
 }
 
 .sidebar-title {
